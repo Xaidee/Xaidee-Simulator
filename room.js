@@ -1,11 +1,2 @@
-import assets from 'https://xaidee.neocities.org/assets/'
-
-function XaideesRoom() {
-    const background = assets + "isometric.png"
-
-    return (
-        <div className="room">
-            <img src={background}/>
-        </div>
-    );
-}
+const room = document.getElementById("xaideesRoom");
+room.innerHTML = `<img src="https://xaidee.neocities.org/assets/isometric.png" width=100%>`;
