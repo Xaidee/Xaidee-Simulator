@@ -1,8 +1,8 @@
 import assets from 'https://xaidee.neocities.org/assets/'
 
-function XaideesRoom({}) {
+function XaideesRoom() {
     const background = assets + "isometric.png"
-    
+
     return (
         <div className="room">
             <img src={background}/>
